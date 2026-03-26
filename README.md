@@ -4,7 +4,7 @@ Bienvenue dans le dépôt du projet de démonstration pour le **Centre Régional
 
 ---
 
-## 🚀 Vue d'ensemble des Fonctionnalités
+## 🚀 Vue d'ensemble des Fonctionnalités :
 
 ### 1. 🤖 Assistant Virtuel Public (Interface WhatsApp Clone)
 - **RAG Intelligent Multilingue** : Répond précisément aux questions sur les procédures d'investissement en s'appuyant uniquement sur les documents du CRI.
