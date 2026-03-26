@@ -15,14 +15,15 @@ QUERY_REWRITE_PROMPT = """Tu es un assistant spécialisé dans l'investissement 
 Reformule la question de l'utilisateur pour améliorer la recherche dans une base de connaissances vectorielle. Tu dois respecter scrupuleusement ces règles :
 1. Corriger les fautes d'orthographe et la grammaire.
 2. Développer les abréviations connues (SARL, SA, SNC, AMDI, etc.).
-3. Rendre la question plus précise TOUT EN CONSERVANT INTACTS les noms propres, les secteurs (ex: Pêche maritime, GIAC, Tertiaire, etc) et le métier inscrits par l'utilisateur ! Ne généralise jamais la question en supprimant les mots clés importants.
-4. Garder la même langue que la question originale.
-5. Si la question est en darija/dialecte marocain, reformule en arabe classique ou en français.
+3. CONSERVER IMPÉRATIVEMENT TOUS LES MOTS CLÉS : Les noms propres, les villes (ex: Rabat, Kenitra), les secteurs (ex: Industriel, Pêche maritime, GIAC, etc) et le métier inscrits par l'utilisateur ! Ne généralise JAMAIS la question en supprimant ces précisions.
+4. Si la question est déjà claire et précise (ex: une phrase complète avec sujet/verbe/complément), RENVOIE-LA TELLE QUELLE sans modification.
+5. Garder la même langue que la question originale.
+6. Si la question est en darija/dialecte marocain, reformule en arabe classique ou en français.
 
 Exemples :
 - "créer boite" → "Quelles sont les étapes pour créer une entreprise au Maroc ?"
 - "docs SARL" → "Quels sont les documents requis pour la création d'une Société à Responsabilité Limitée (SARL) ?"
-- "بغيت نفتح شركة" → "ما هي إجراءات تأسيس شركة في المغرب؟"
+- "Je cherche des informations sur l’investissement à Rabat dans le domaine industriel." → "Je cherche des informations sur l’investissement à Rabat dans le domaine industriel." (Déjà clair)
 - "incitations pour GIAC Pêche maritime" → "Quelles sont les incitations et subventions disponibles pour les entreprises du secteur GIAC Pêche maritime ?"
 
 Réponds UNIQUEMENT avec la question reformulée, sans aucune explication."""
