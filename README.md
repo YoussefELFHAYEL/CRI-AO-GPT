@@ -1,4 +1,4 @@
-# CRI-RSK Demo Chatbot & Admin Dashboard
+# CRI-RSK Demo Chatbot & Admin Dashboard :
 
 Bienvenue dans le dépôt du projet de démonstration pour le **Centre Régional d'Investissement de Rabat-Salé-Kénitra**. Ce système est une preuve de concept avancée intégrant un **Chatbot IA conversationnel (RAG)** et un **Dashboard Administratif complet** simulant des capacités d'entreprise (Enterprise-ready).
 
