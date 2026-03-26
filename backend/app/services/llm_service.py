@@ -72,7 +72,7 @@ async def generate_response(
             instructions=system_prompt,
             input=full_input,
             temperature=0.3,
-            max_output_tokens=1500,
+            max_output_tokens=4000,
         )
 
         response_text = response.output_text.strip() if response.output_text else ""
