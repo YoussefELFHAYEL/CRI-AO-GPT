@@ -71,7 +71,7 @@ CONTACT CRI-RSK:
 # Suggestion chips for the public agent
 PUBLIC_SUGGESTIONS = [
     {"label": "🏢 Créer une entreprise", "value": "Comment créer une entreprise au Maroc ?"},
-    {"label": "💰 Incitations disponibles", "value": "Quelles sont les incitations à l'investissement ?"},
+    {"label": "💰 Incitations", "value": "Quelles sont les incitations mises en place par le GIAC Hôtellerie et Tourisme pour améliorer la compétitivité des entreprises du secteur ?"},
     {"label": "📋 Suivre mon dossier", "value": "Je voudrais suivre mon dossier d'investissement"},
     {"label": "📄 Documents requis", "value": "Quels documents sont nécessaires pour un dossier d'investissement ?"},
     {"label": "مرحبا", "value": "مرحبا"},
