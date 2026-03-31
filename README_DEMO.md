@@ -1,4 +1,4 @@
-# 🚀 Guide de Démonstration - CRI-RSK Chatbot & Admin Dashboard
+# Guide de Démonstration - CRI-RSK Chatbot & Admin Dashboard
 
 Ce document contient le script étape par étape pour réaliser une démonstration fluide et impressionnante du projet **CRI-RSK Chatbot** face au jury.
 
